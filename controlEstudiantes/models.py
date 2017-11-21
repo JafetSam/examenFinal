@@ -5,7 +5,7 @@ from django.contrib import admin
 
 
 class Materia(models.Model):
-    nombre=models.CharField(max_length=30)
+    nombre  =   models.CharField(max_length=30)
     def __str__(self):
         return self.nombre
 
